@@ -1,7 +1,5 @@
 # Spaceman
 
-A cleaned up version of hangman that doesnt depict an execution.
-
 ## MVP
 
 #### wireframe
