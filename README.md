@@ -38,40 +38,40 @@ A cleaned up version of hangman that doesnt depict an execution.
 - As a user I want to see the number of attempts I have left
 
     
-    for loop to create underscores for word
+        for loop to create underscores for word
 
-    function to check if letter is in word
-    if letter is in word
-        replace underscore with letter
-    else
-        add letter to incorrect array
-        subtract 1 from attempts
-        change image to next image
+        function to check if letter is in word
+            if letter is in word
+                replace underscore with letter
+            else
+                add letter to incorrect array
+                subtract 1 from attempts
+                change image to next image
 
-    function to check if word is guessed
-    if word is guessed
-        alert "you win"
-    else
-        alert "you lose"
+        function to check if word is guessed
+            if word is guessed
+                alert "you win"
+            else
+                alert "you lose"
 
-    function to check if any attempts are left
-    if attempts are left
-        continue game
-    else
-        alert "you lose"
+        function to check if any attempts are left
+            if attempts are left
+                continue game
+            else
+                alert "you lose"
 
 - As a user I want to be able to start a new game
 
     
-    function to start new game
+        function to start new game
 
-        reset attempts
+            reset attempts
 
-        reset incorrect array
+            reset incorrect array
 
-        reset word
+            reset word
 
-        reset underscores
+            reset underscores
 
 
 ## version 2
