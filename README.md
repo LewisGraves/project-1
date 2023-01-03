@@ -38,7 +38,12 @@ A cleaned up version of hangman that doesnt depict an execution.
 - As a user I want to see the number of attempts I have left
 
     
-        for loop to create underscores for word
+        Initialize game
+            for loop to create underscores for word
+            display underscores
+            display image
+            display attempts
+            display incorrect array
 
         function to check if letter is in word
             if letter is in word
