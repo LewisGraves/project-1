@@ -11,45 +11,31 @@ A cleaned up version of hangman that doesnt depict an execution.
 #### User stories
 
 - As a user I want to be able to play a game of "spaceman"
-- As a user I want to be able to see the word I am trying to guess
-- As a user I want to be able to guess a letter
-- As a user I want to be able to see the letters I have guessed incorrectly
-- As a user I want to be able to see the letters I have guessed correctly
-- As a user I want to see the number of attempts I have left
-- As a user I want to be able to start a new game
 
-#### pseudocode
-
-HTML 
-
-header with game name
-
-div with word to guess
-
-div with attempts left
-
-div with incorrect letters
-
-input for letter guess
-
-button to submit guess
-
-button to start new game
-
-
-JS
-
-let wordBank = ["word1", "word2", "word3"]
+`const wordBank = ["word1", "word2", "word3"]
 
 let random = Math.floor(Math.random() * wordBank.length)
 
+const images = ["image1", "image2", "image3"]
+
 let word = wordBank[random]
+
+let userInput = ""
 
 let attempts = 6
 
 let incorrect = []
 
-for loop to create underscores for word
+let imagestep = images[0]`
+
+- As a user I want to be able to see the word I am trying to guess
+- As a user I want to see the spaceman
+- As a user I want to be able to guess a letter
+- As a user I want to be able to see the letters I have guessed incorrectly
+- As a user I want to be able to see the letters I have guessed correctly
+- As a user I want to see the number of attempts I have left
+
+`for loop to create underscores for word
 
 function to check if letter is in word
 if letter is in word
@@ -57,6 +43,7 @@ if letter is in word
 else
     add letter to incorrect array
     subtract 1 from attempts
+    change image to next image
 
 function to check if word is guessed
 if word is guessed
@@ -68,13 +55,16 @@ function to check if any attempts are left
 if attempts are left
     continue game
 else
-    alert "you lose"
+    alert "you lose"`
 
-function to start new game
+- As a user I want to be able to start a new game
+
+`function to start new game
 reset attempts
 reset incorrect array
 reset word
-reset underscores
+reset underscores`
+
 
 ## version 2
 
