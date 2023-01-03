@@ -13,21 +13,21 @@ A cleaned up version of hangman that doesnt depict an execution.
 - As a user I want to be able to play a game of "spaceman"
 
 
-    const wordBank = ["word1", "word2", "word3"]
+        const wordBank = ["word1", "word2", "word3"]
 
-    let random = Math.floor(Math.random() * wordBank.length)
+        let random = Math.floor(Math.random() * wordBank.length)
 
-    const images = ["image1", "image2", "image3"]
+        const images = ["image1", "image2", "image3"]
 
-    let word = wordBank[random]
+        let word = wordBank[random]
 
-    let userInput = ""
+        let userInput = ""
 
-    let attempts = 6
+        let attempts = 6
 
-    let incorrect = []
+        let incorrect = []
 
-    let imagestep = images[0]
+        let imagestep = images[0]
 
 
 - As a user I want to be able to see the word I am trying to guess
