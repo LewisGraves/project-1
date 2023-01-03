@@ -21,21 +21,32 @@ A cleaned up version of hangman that doesnt depict an execution.
 #### pseudocode
 
 HTML 
+
 header with game name
+
 div with word to guess
+
 div with attempts left
+
 div with incorrect letters
+
 input for letter guess
+
 button to submit guess
+
 button to start new game
 
 
 JS
 
 let wordBank = ["word1", "word2", "word3"]
+
 let random = Math.floor(Math.random() * wordBank.length)
+
 let word = wordBank[random]
+
 let attempts = 6
+
 let incorrect = []
 
 for loop to create underscores for word
