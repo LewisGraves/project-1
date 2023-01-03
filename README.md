@@ -69,7 +69,7 @@ reset underscores
 
 #### wireframe
 
-![version 2 wireframe](version2.png)
+![version 2 wireframe](ver2.png)
 
 #### User stories
 
@@ -81,7 +81,7 @@ reset underscores
 
 #### wireframe
 
-![version 3 wireframe](version3.png)
+![version 3 wireframe](ver3.png)
 
 #### User stories
 
