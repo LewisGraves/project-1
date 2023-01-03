@@ -37,8 +37,8 @@ A cleaned up version of hangman that doesnt depict an execution.
 - As a user I want to be able to see the letters I have guessed correctly
 - As a user I want to see the number of attempts I have left
 
-`   
-    for loop to create underscores for word
+
+    `for loop to create underscores for word
 
     function to check if letter is in word
     if letter is in word
@@ -58,18 +58,19 @@ A cleaned up version of hangman that doesnt depict an execution.
     if attempts are left
         continue game
     else
-        alert "you lose"
-`
+        alert "you lose"`
 
 - As a user I want to be able to start a new game
 
-`   
-    function to start new game
+    `function to start new game
+
         reset attempts
+
         reset incorrect array
+
         reset word
-        reset underscores
-`
+
+        reset underscores`
 
 
 ## version 2
