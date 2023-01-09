@@ -1,4 +1,4 @@
-//Hangman Game
+//Spaceman
 
 //grab dom elements and assign to variables
 const gameImage = document.querySelector('.game-image')
