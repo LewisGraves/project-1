@@ -1,6 +1,6 @@
 # Spaceman
 
-Spaceman is a game where you have to guess a word before the spaceman is drawn.
+Spaceman is a game where you have to guess a word before the spaceman gets you.
 
 ![new-game](spaceman-1.png)
 
@@ -28,7 +28,7 @@ Instructions:
 
 ## Next steps
 
-Version 2 will:
+Version 2:
 - As a player i would like a hint button
 - As a player i would like to have a category selector
 
