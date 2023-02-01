@@ -20,6 +20,7 @@ let wordToGuess = wordBank[Math.floor(Math.random() * wordBank.length)]
 let wordArray = []
 let underscoreArray = []
 let incorrectArray = []
+// Magic Numbers should be in all caps and snake case
 let guesses = 0
 const maxGuesses = 6
 
